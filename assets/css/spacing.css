@@ -964,3 +964,18 @@
 .pr-200 {
   padding-right: 200px;
 }
+
+@media (max-width: 767px) {
+  .pt-150, .pt-140, .pt-130, .pt-120, .pt-110, .pt-100, .pt-90, .pt-80 {
+    padding-top: 60px !important;
+  }
+  .pb-150, .pb-140, .pb-130, .pb-120, .pb-110, .pb-100, .pb-90, .pb-80 {
+    padding-bottom: 60px !important;
+  }
+  .mt-150, .mt-140, .mt-130, .mt-120, .mt-110, .mt-100, .mt-90, .mt-80 {
+    margin-top: 60px !important;
+  }
+  .mb-150, .mb-140, .mb-130, .mb-120, .mb-110, .mb-100, .mb-90, .mb-80 {
+    margin-bottom: 60px !important;
+  }
+}
