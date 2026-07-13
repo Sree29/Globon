@@ -979,3 +979,11 @@
     margin-bottom: 60px !important;
   }
 }
+
+/* Fix for swiper invisible slides blocking clicks */
+.swiper-slide {
+  pointer-events: none !important;
+}
+.swiper-slide-active, .swiper-slide-duplicate-active {
+  pointer-events: auto !important;
+}
