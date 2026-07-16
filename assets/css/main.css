@@ -12899,3 +12899,6 @@ blockquote::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.tp-main-menu ul li a.active { color: var(--tp-theme-primary) !important; }
+
